@@ -28,6 +28,12 @@ public class Responsable implements FileMappable<Responsable> {
         this.motDePasse = motDePasse;
     }
 
+    public Responsable(String matricule, String nom, String prenom) {
+        this.matricule = matricule;
+        this.nom = nom;
+        this.prenom = prenom;
+    }
+
     public Responsable(String matricule, String nom, String prenom, String numeroTel, String email, String motDePasse) {
         this.matricule = matricule;
         this.nom = nom;
